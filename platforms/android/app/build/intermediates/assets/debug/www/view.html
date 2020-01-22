@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;"> -->
+
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1">
+        <!-- <meta name="viewport" content="initial-scale=1, width=device-width, height=device-height, viewport-fit=cover"> -->
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+        <!-- Bootstrap 4 -->
+        <link rel="stylesheet" type="text/css" href="css/bootstrap/css/bootstrap.min.css">
+
+        <!-- font awesome cdn -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+        <script src='https://cdn.jsdelivr.net/gh/naptha/tesseract.js@v1.0.14/dist/tesseract.min.js'></script>
+
+        <title>Hello World</title>
+        <script type="text/javascript">
+            document.addEventListener("deviceready", ondeviceready, false);
+            function takepicture()
+            {
+                navigator.camera.getPicture(onSuccess, onFail, { quality: 50,
+                destinationType: Camera.DestinationType.DATA_URL
+                });
+
+                function onSuccess(imageURI) {
+                    alert('success: ' + imageURI);
+                    var image = document.getElementById("capturedImage");
+                    image.src = "data:image/jpeg;base64," + imageURI;
+                   
+                    
+                    textocr.recText(0, 3, imageURI, onSuccess, onFail);
+                                        function onSuccess(recognizedText) {
+                                //var element = document.getElementById('pp');
+                                //element.innerHTML=recognizedText;
+                                //Use above two lines to show recognizedText in html
+                                console.log(recognizedText);
+                                alert(recognizedText);
+                          }
+                          function onFail(message) {
+                                alert('Failed because: ' + message);
+                          }
+                  
+                }
+
+                function onFail(message) {
+                    alert('Failed because: ' + message);
+                }
+            }
+
+            function choose(){
+                navigator.camera.getPicture(onSuccess, onFail, {
+                    sourceType: Camera.PictureSourceType.PHOTOLIBRARY,
+                    allowEdit: true,
+                    destinationType: Camera.DestinationType.FILE_URI
+                });
+
+                function onSuccess(imageData){
+                    var image = document.getElementById('capturedImage');
+                    image.src = imageData;
+
+                    textocr.recText(0, 3, imageData, onSuccess, onFail);
+                                        function onSuccess(recognizedText) {
+                                //var element = document.getElementById('pp');
+                                //element.innerHTML=recognizedText;
+                                //Use above two lines to show recognizedText in html
+                                console.log(recognizedText.text);
+                                alert(recognizedText);
+                          }
+                          function onFail(message) {
+                                alert('Failed because: ' + message);
+                          }
+                    
+                }
+
+                function onFail(message){
+                    alert('sorry failed'+message);
+                }
+                    
+                                   
+            }
+
+            function speech()
+            {
+                TTS.speak(sessionStorage.getItem("summary"), function () {
+                   
+                }, function (reason) {
+                    alert(reason);
+                });
+            }
+            
+          
+            
+        </script>
+          
+          <script src="js/lodash.js" type="text/javascript"></script>
+          <script src="js/jquery.js" type="text/javascript"></script>
+          <script src="js/tokenizer.js" type="text/javascript"></script>
+          <script src="js/js-summarize.js" type="text/javascript"></script>
+         
+         <script type="text/javascript">
+             
+    
+            $(window).ready(
+
+            function () {
+          
+                document.getElementById("summary").innerHTML = sessionStorage.getItem("summary");
+                document.getElementById("title").innerHTML = sessionStorage.getItem("title");
+            });
+    </script>
+    </head>
+    <body>
+        <div class="container bg-white text-white h-100" data-role="page">
+           <div class="row appbar text-white">
+               <div class="col-1 d-flex align-items-center text-white">
+                    <a href="index.html">
+                         <i class="fas fa-chevron-left text-white float-left" onclick="back()"> </i>
+                    </a>
+               </div>
+                <div class="col-8 align-items-center d-flex">
+                  <div class="bar-text text-capitalize">
+              
+                
+                  <div class="ml-0 d-flex align-items-center justify-content-center">Multimode Summarizer</div>
+                  
+                 </div>
+               </div>
+               <div class="col-3 float-right d-flex align-items-center ">
+                  <i class="fas fa-camera float-right d-none" onclick="takepicture()"></i> 
+                  <i class="fas fa-image float-right ml-4 d-none" onclick="choose()"></i> 
+               </div>
+            </div>
+            <div class="row">
+                
+                <div class="col-12 p-3 mt-3 text-center text-capitalize">
+                    
+                <h3 class="text-secondary">Summary</h3>
+                
+                </div>
+                 
+                <div class="col-12 p-3  text-center text-capitalize">
+                    
+                <h4 class="text-danger" id="title"></h4>
+                
+                </div>
+                
+                <div class="col-12 p-3 mt-1">
+                    <div class="summary-text text-capitalize p-3" id="summary">
+                        
+                    </div>
+                </div>
+            </div>
+            
+             <div class="row mt-3 w-100" style="bottom:2%;position: absolute;">
+                <div class="col-12 d-flex align-items-center justify-content-center">
+                   
+               <a href="#" class="btn-danger mt-4 speak d-flex align-items-center justify-content-center p-2" id="split" > 
+                <i class="fas fa-bullhorn float-right" onclick="speech()"></i>
+               </a> 
+                </div>
+            </div>
+<!--
+            <div class="row">
+              
+                <div class="col-12">
+                    <a href="#" onclick="takepicture()" class="text-white"><i class="fas fa-camera"></i></a>
+                    <br>
+                </div>
+                <div class="">
+                    <img src="" id="capturedImage" class="w-50 h-50">
+                </div>
+            </div>
+-->
+<!--
+            <div class="row mt-3">
+                <div class="col-12">
+                   
+                    <button class="btn btn-outline-secondary mt-4" onclick="speech()">Speech</button>
+                </div>
+            </div>
+-->
+       
+<!--
+            <div class="row mt-3 w-100" style="bottom:2%;position: absolute;">
+                <div class="col-12 d-flex align-items-center justify-content-center">
+                   
+                    <button class="btn btn-danger mt-4 w-100" id="split" >Generate Summary</button>
+                </div>
+            </div>
+       
+-->
+       
+        </div>
+        
+<!--
+         <div class="container bg-white text-white h-100" id="home" data-role="page">
+          
+            <div class="row mt-3 w-100" style="bottom:2%;position: absolute;">
+                <div class="col-12 d-flex align-items-center justify-content-center">
+                   
+                    <button class="btn btn-danger mt-4 w-100" id="split" >Generate Summary</button>
+                </div>
+            </div>
+       
+       
+        </div>
+-->
+
+
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+
+        <script type="text/javascript" src="js/ocrad.js"></script>
+        <script type="text/javascript" src="js/ocrad-browser.js"></script>
+    
+        <!-- Bootstrap and Popper JS -->
+        <script type="text/javascript" src="css/bootstrap/js/bootstrap.min.js"></script>
+
+    </body>
+</html>

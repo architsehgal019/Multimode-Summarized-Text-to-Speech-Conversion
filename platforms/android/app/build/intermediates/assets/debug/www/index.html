@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;"> -->
+
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1">
+        <!-- <meta name="viewport" content="initial-scale=1, width=device-width, height=device-height, viewport-fit=cover"> -->
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+        <!-- Bootstrap 4 -->
+        <link rel="stylesheet" type="text/css" href="css/bootstrap/css/bootstrap.min.css">
+
+        <!-- font awesome cdn -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+        <script src='https://cdn.jsdelivr.net/gh/naptha/tesseract.js@v1.0.14/dist/tesseract.min.js'></script>
+
+        <title>Hello World</title>
+        <script type="text/javascript">
+            document.addEventListener("deviceready", ondeviceready, false);
+            function takepicture()
+            {                
+                navigator.camera.getPicture(onSuccess, onFail, { quality: 100, correctOrientation: true });
+ 
+                function onSuccess(imageData) {
+                      textocr.recText(0, imageData, onSuccess, onFail);
+                      function onSuccess(recognizedText) {
+                            console.log(recognizedText);
+//                            alert((JSON.stringify(recognizedText['blocks']['blocktext'].join(" ").replace(/\n/g, " "))));
+                            var img_text = (JSON.stringify(recognizedText['blocks']['blocktext'].join(" ").replace(/\n/g, " ")));
+                            $(".text-box").val(img_text);
+                      }
+                      function onFail(message) {
+                            alert('Failed because: ' + message);
+                      }
+                }
+                function onFail(message) {
+                      alert('Failed because: ' + message);
+                }
+            }
+
+            function choose(){
+                navigator.camera.getPicture(onSuccess, onFail, { quality: 50,
+                    sourceType: Camera.PictureSourceType.PHOTOLIBRARY, 
+                    allowEdit: true,
+                    destinationType: Camera.DestinationType.FILE_URI
+                });
+                function onSuccess(imageData) {
+                      textocr.recText(0, imageData, onSuccess, onFail);
+                      function onSuccess(recognizedText) {
+                            console.log(recognizedText);
+//                            alert((JSON.stringify(recognizedText['blocks']['blocktext'].join(" ").replace(/\n/g, " "))));
+                            var img_text = (JSON.stringify(recognizedText['blocks']['blocktext'].join(" ").replace(/\n/g, " ")));
+                            $(".text-box").val(img_text);
+                      }
+                      function onFail(message) {
+                            alert('Failed because: ' + message);
+                      }
+                }
+                function onFail(message) {
+                      alert('Failed because: ' + message);
+                }
+                
+            }
+
+           
+            
+        </script>
+          
+          <script src="js/lodash.js" type="text/javascript"></script>
+          <script src="js/jquery.js" type="text/javascript"></script>
+          <script src="js/tokenizer.js" type="text/javascript"></script>
+          <script src="js/js-summarize.js" type="text/javascript"></script>
+         
+         <script type="text/javascript">
+
+    
+            $(window).ready(
+
+            function () {
+                $('#split').on('click', function () {
+//                    $(".teasers").html("");
+                    
+                    
+                     paragraph = '';
+                    var summarizer = new JsSummarize(
+                      {
+                        returnCount: 3
+                      });
+                    var summary = summarizer.summarize($('.text-box-heading').val(),$('.text-box').val());
+                    summary.forEach(function(sentence)
+                    {
+//                        $(".teasers").append("<li>"+sentence+"</li>");
+                         paragraph = paragraph+" "+ sentence;
+                        
+                    });
+//                    alert(paragraph);
+                    sessionStorage.setItem("summary", paragraph);
+                    sessionStorage.setItem("title", $('.text-box-heading').val());
+                    window.open('view.html');
+                    
+//                    $(".title").text($("#title").val());
+                });
+
+            });
+    </script>
+    
+    <script type="text/javascript">
+        var recognition;
+        document.addEventListener('deviceready', onDeviceReady, false);
+
+        function onDeviceReady() {
+            recognition = new SpeechRecognition();
+            recognition.onresult = function(event) {
+                if (event.results.length > 0) {
+                    $(".text-box").val(event.results[0][0].transcript);
+                    
+                }
+            }
+        }
+        </script>
+    </head>
+    <body>
+        <div class="container bg-white text-white h-100" data-role="page">
+           <div class="row p-2 appbar text-white">
+               <div class="col-8 align-items-center d-flex">
+                  <div class="bar-text text-capitalize"> Multimode Summarizer </div>
+               </div>
+               <div class="col-4 float-right d-flex align-items-center ">
+                  <i class="fas fa-camera float-right" onclick="takepicture()"></i> 
+                  <i class="fas fa-image float-right ml-4" onclick="choose()"></i>
+                  <i class="fas fa-microphone float-right ml-4" onclick="recognition.start()"></i>  
+               </div>
+            </div>
+            <div class="row">
+                
+                <div class="col-12 p-3 mt-3">
+                    <textarea class="form-control text-box-heading" rows="2" placeholder="Title..."></textarea>
+                </div>
+                
+                <div class="col-12 p-3 mt-2">
+                    <textarea class="form-control text-box" rows="15" placeholder="Type your text here..."></textarea>
+                </div>
+            </div>
+
+          
+            <div class="row mt-3 w-100" style="bottom:2%;position: absolute;">
+                <div class="col-12 d-flex align-items-center justify-content-center">
+                   
+               <a href="#" class="btn btn-danger mt-4 w-100 d-flex align-items-center justify-content-center" id="split" > 
+               Generate Summary
+               </a> 
+                </div>
+            </div>
+       
+       
+        </div>
+        
+
+
+
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+
+        <script type="text/javascript" src="js/ocrad.js"></script>
+        <script type="text/javascript" src="js/ocrad-browser.js"></script>
+    
+        <!-- Bootstrap and Popper JS -->
+        <script type="text/javascript" src="css/bootstrap/js/bootstrap.min.js"></script>
+
+    </body>
+</html>

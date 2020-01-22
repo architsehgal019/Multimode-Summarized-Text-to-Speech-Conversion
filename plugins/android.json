@@ -1,0 +1,39 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "com.example.converter"
+    },
+    "cordova-plugin-statusbar": {
+      "PACKAGE_NAME": "com.example.converter"
+    },
+    "cordova-plugin-camera": {
+      "PACKAGE_NAME": "com.example.converter"
+    },
+    "cordova-plugin-tesseract-ocr": {
+      "PACKAGE_NAME": "com.example.converter"
+    },
+    "cordova-plugin-mobile-ocr": {
+      "PACKAGE_NAME": "com.example.converter"
+    },
+    "cordova-plugin-texttospeech": {
+      "PACKAGE_NAME": "com.example.converter"
+    },
+    "cordova-plugin-splashscreen": {
+      "PACKAGE_NAME": "com.example.converter"
+    },
+    "phonegap-plugin-speech-recognition": {
+      "PACKAGE_NAME": "com.example.converter"
+    },
+    "cordova-plugin-document-scanner": {
+      "PACKAGE_NAME": "com.example.converter"
+    }
+  },
+  "dependent_plugins": {}
+}

@@ -1,0 +1,4 @@
+#Mon Apr 22 05:10:52 IST 2019
+base.0=G\:\\My Projects\\Cordova\\Major Project\\converter\\platforms\\android\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+path.0=classes.dex
+renamed.0=classes.dex

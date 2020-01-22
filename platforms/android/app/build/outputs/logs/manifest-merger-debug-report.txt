@@ -1,0 +1,264 @@
+-- Merging decision tree log ---
+provider#org.apache.cordova.camera.FileProvider
+INJECTED from G:\My Projects\Cordova\Major Project\converter\platforms\android\app\src\main\AndroidManifest.xml:12:9-14:20
+	android:grantUriPermissions
+		ADDED from G:\My Projects\Cordova\Major Project\converter\platforms\android\app\src\main\AndroidManifest.xml:12:92-126
+	android:authorities
+		INJECTED from G:\My Projects\Cordova\Major Project\converter\platforms\android\app\src\main\AndroidManifest.xml
+		ADDED from G:\My Projects\Cordova\Major Project\converter\platforms\android\app\src\main\AndroidManifest.xml:12:19-66
+	android:exported
+		ADDED from G:\My Projects\Cordova\Major Project\converter\platforms\android\app\src\main\AndroidManifest.xml:12:67-91
+	android:name
+		ADDED from G:\My Projects\Cordova\Major Project\converter\platforms\android\app\src\main\AndroidManifest.xml:12:127-180
+manifest
+ADDED from G:\My Projects\Cordova\Major Project\converter\platforms\android\app\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from G:\My Projects\Cordova\Major Project\converter\platforms\android\app\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from G:\My Projects\Cordova\Major Project\converter\platforms\android\app\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from G:\My Projects\Cordova\Major Project\converter\platforms\android\app\src\main\AndroidManifest.xml:2:1-21:12
+MERGED from [com.github.NeutrinosPlatform:scanlibrary:2.2] C:\Users\Archit_pc\.gradle\caches\transforms-1\files-1.1\scanlibrary-2.2.aar\3e65bcae8a09876477c4fe23c349a13a\AndroidManifest.xml:2:1-41:12
+MERGED from [com.google.android.gms:play-services-vision:11.6.2] C:\Users\Archit_pc\.gradle\caches\transforms-1\files-1.1\play-services-vision-11.6.2.aar\fc88e6c792292b2971fdcafe7c3327bc\AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-vision-common:11.6.2] C:\Users\Archit_pc\.gradle\caches\transforms-1\files-1.1\play-services-vision-common-11.6.2.aar\c38e050bffe2fb6a9fcb29580378717e\AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-base:11.6.2] C:\Users\Archit_pc\.gradle\caches\transforms-1\files-1.1\play-services-base-11.6.2.aar\12c0123f3ba943217e0c52b624d21956\AndroidManifest.xml:16:1-21:12
+MERGED from [com.google.android.gms:play-services-tasks:11.6.2] C:\Users\Archit_pc\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.6.2.aar\cb604757f8bd5fb90b8e74cd0e2765d7\AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-basement:11.6.2] C:\Users\Archit_pc\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.6.2.aar\2dab50a9186498f545a4150b9f82ea02\AndroidManifest.xml:16:1-23:12
+MERGED from [com.android.support:support-v4:25.2.0] C:\Users\Archit_pc\.gradle\caches\transforms-1\files-1.1\support-v4-25.2.0.aar\c9ec49235506f7582d18280805adc64a\AndroidManifest.xml:17:1-27:12
+MERGED from [:CordovaLib] G:\My Projects\Cordova\Major Project\converter\platforms\android\CordovaLib\build\intermediates\manifests\full\debug\AndroidManifest.xml:20:1-27:12
+MERGED from [com.android.support:support-fragment:25.2.0] C:\Users\Archit_pc\.gradle\caches\transforms-1\files-1.1\support-fragment-25.2.0.aar\5309af94737edefc8e902ec652242e6b\AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-media-compat:25.2.0] C:\Users\Archit_pc\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.2.0.aar\875a97f0df5125b286cd525ba000672b\AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-core-utils:25.2.0] C:\Users\Archit_pc\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.2.0.aar\94e431f8a723b5c38eb2e57496a1af58\AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-core-ui:25.2.0] C:\Users\Archit_pc\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.2.0.aar\1769e4694dcf17b16ab9d81f41bd53fa\AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-compat:25.2.0] C:\Users\Archit_pc\.gradle\caches\transforms-1\files-1.1\support-compat-25.2.0.aar\84d7c5892e53c8fdd3a571093674aa69\AndroidManifest.xml:17:1-27:12
+MERGED from [com.google.android.gms:play-services-vision-license:11.6.2] C:\Users\Archit_pc\.gradle\caches\transforms-1\files-1.1\play-services-vision-license-11.6.2.aar\18d0eb8a36c428cc8bcc4af73f6afdb3\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-base-license:11.6.2] C:\Users\Archit_pc\.gradle\caches\transforms-1\files-1.1\play-services-base-license-11.6.2.aar\ab72e1637134b289d98c01dc212868c3\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-basement-license:11.6.2] C:\Users\Archit_pc\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-11.6.2.aar\33f155ad3c342cacad9a257fc0e5d0e8\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-vision-common-license:11.6.2] C:\Users\Archit_pc\.gradle\caches\transforms-1\files-1.1\play-services-vision-common-license-11.6.2.aar\b1f6eb1d279b4c5a2baf827393358f98\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-tasks-license:11.6.2] C:\Users\Archit_pc\.gradle\caches\transforms-1\files-1.1\play-services-tasks-license-11.6.2.aar\0558a4312d04cc62ed7308b1bc2a82f2\AndroidManifest.xml:2:1-6:12
+INJECTED from G:\My Projects\Cordova\Major Project\converter\platforms\android\app\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from G:\My Projects\Cordova\Major Project\converter\platforms\android\app\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from G:\My Projects\Cordova\Major Project\converter\platforms\android\app\src\main\AndroidManifest.xml:2:1-21:12
+	package
+		ADDED from G:\My Projects\Cordova\Major Project\converter\platforms\android\app\src\main\AndroidManifest.xml:2:102-133
+		INJECTED from G:\My Projects\Cordova\Major Project\converter\platforms\android\app\src\main\AndroidManifest.xml
+		INJECTED from G:\My Projects\Cordova\Major Project\converter\platforms\android\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from G:\My Projects\Cordova\Major Project\converter\platforms\android\app\src\main\AndroidManifest.xml:2:74-101
+		INJECTED from G:\My Projects\Cordova\Major Project\converter\platforms\android\app\src\main\AndroidManifest.xml
+		INJECTED from G:\My Projects\Cordova\Major Project\converter\platforms\android\app\src\main\AndroidManifest.xml
+	android:hardwareAccelerated
+		ADDED from G:\My Projects\Cordova\Major Project\converter\platforms\android\app\src\main\AndroidManifest.xml:2:11-45
+	xmlns:android
+		ADDED from G:\My Projects\Cordova\Major Project\converter\platforms\android\app\src\main\AndroidManifest.xml:2:134-192
+	android:versionCode
+		ADDED from G:\My Projects\Cordova\Major Project\converter\platforms\android\app\src\main\AndroidManifest.xml:2:46-73
+		INJECTED from G:\My Projects\Cordova\Major Project\converter\platforms\android\app\src\main\AndroidManifest.xml
+		INJECTED from G:\My Projects\Cordova\Major Project\converter\platforms\android\app\src\main\AndroidManifest.xml
+supports-screens
+ADDED from G:\My Projects\Cordova\Major Project\converter\platforms\android\app\src\main\AndroidManifest.xml:3:5-191
+	android:largeScreens
+		ADDED from G:\My Projects\Cordova\Major Project\converter\platforms\android\app\src\main\AndroidManifest.xml:3:49-76
+	android:smallScreens
+		ADDED from G:\My Projects\Cordova\Major Project\converter\platforms\android\app\src\main\AndroidManifest.xml:3:132-159
+	android:normalScreens
+		ADDED from G:\My Projects\Cordova\Major Project\converter\platforms\android\app\src\main\AndroidManifest.xml:3:77-105
+	android:xlargeScreens
+		ADDED from G:\My Projects\Cordova\Major Project\converter\platforms\android\app\src\main\AndroidManifest.xml:3:160-188
+	android:resizeable
+		ADDED from G:\My Projects\Cordova\Major Project\converter\platforms\android\app\src\main\AndroidManifest.xml:3:106-131
+	android:anyDensity
+		ADDED from G:\My Projects\Cordova\Major Project\converter\platforms\android\app\src\main\AndroidManifest.xml:3:23-48
+uses-permission#android.permission.INTERNET
+ADDED from G:\My Projects\Cordova\Major Project\converter\platforms\android\app\src\main\AndroidManifest.xml:4:5-67
+	android:name
+		ADDED from G:\My Projects\Cordova\Major Project\converter\platforms\android\app\src\main\AndroidManifest.xml:4:22-64
+application
+ADDED from G:\My Projects\Cordova\Major Project\converter\platforms\android\app\src\main\AndroidManifest.xml:5:5-15:19
+MERGED from [com.github.NeutrinosPlatform:scanlibrary:2.2] C:\Users\Archit_pc\.gradle\caches\transforms-1\files-1.1\scanlibrary-2.2.aar\3e65bcae8a09876477c4fe23c349a13a\AndroidManifest.xml:19:5-39:19
+MERGED from [com.github.NeutrinosPlatform:scanlibrary:2.2] C:\Users\Archit_pc\.gradle\caches\transforms-1\files-1.1\scanlibrary-2.2.aar\3e65bcae8a09876477c4fe23c349a13a\AndroidManifest.xml:19:5-39:19
+MERGED from [com.google.android.gms:play-services-vision:11.6.2] C:\Users\Archit_pc\.gradle\caches\transforms-1\files-1.1\play-services-vision-11.6.2.aar\fc88e6c792292b2971fdcafe7c3327bc\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-vision:11.6.2] C:\Users\Archit_pc\.gradle\caches\transforms-1\files-1.1\play-services-vision-11.6.2.aar\fc88e6c792292b2971fdcafe7c3327bc\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-vision-common:11.6.2] C:\Users\Archit_pc\.gradle\caches\transforms-1\files-1.1\play-services-vision-common-11.6.2.aar\c38e050bffe2fb6a9fcb29580378717e\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-vision-common:11.6.2] C:\Users\Archit_pc\.gradle\caches\transforms-1\files-1.1\play-services-vision-common-11.6.2.aar\c38e050bffe2fb6a9fcb29580378717e\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-base:11.6.2] C:\Users\Archit_pc\.gradle\caches\transforms-1\files-1.1\play-services-base-11.6.2.aar\12c0123f3ba943217e0c52b624d21956\AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.android.gms:play-services-base:11.6.2] C:\Users\Archit_pc\.gradle\caches\transforms-1\files-1.1\play-services-base-11.6.2.aar\12c0123f3ba943217e0c52b624d21956\AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.android.gms:play-services-tasks:11.6.2] C:\Users\Archit_pc\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.6.2.aar\cb604757f8bd5fb90b8e74cd0e2765d7\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-tasks:11.6.2] C:\Users\Archit_pc\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.6.2.aar\cb604757f8bd5fb90b8e74cd0e2765d7\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:11.6.2] C:\Users\Archit_pc\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.6.2.aar\2dab50a9186498f545a4150b9f82ea02\AndroidManifest.xml:19:5-21:19
+MERGED from [com.google.android.gms:play-services-basement:11.6.2] C:\Users\Archit_pc\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.6.2.aar\2dab50a9186498f545a4150b9f82ea02\AndroidManifest.xml:19:5-21:19
+MERGED from [com.android.support:support-v4:25.2.0] C:\Users\Archit_pc\.gradle\caches\transforms-1\files-1.1\support-v4-25.2.0.aar\c9ec49235506f7582d18280805adc64a\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:25.2.0] C:\Users\Archit_pc\.gradle\caches\transforms-1\files-1.1\support-v4-25.2.0.aar\c9ec49235506f7582d18280805adc64a\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:25.2.0] C:\Users\Archit_pc\.gradle\caches\transforms-1\files-1.1\support-fragment-25.2.0.aar\5309af94737edefc8e902ec652242e6b\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:25.2.0] C:\Users\Archit_pc\.gradle\caches\transforms-1\files-1.1\support-fragment-25.2.0.aar\5309af94737edefc8e902ec652242e6b\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.2.0] C:\Users\Archit_pc\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.2.0.aar\875a97f0df5125b286cd525ba000672b\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.2.0] C:\Users\Archit_pc\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.2.0.aar\875a97f0df5125b286cd525ba000672b\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.2.0] C:\Users\Archit_pc\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.2.0.aar\94e431f8a723b5c38eb2e57496a1af58\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.2.0] C:\Users\Archit_pc\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.2.0.aar\94e431f8a723b5c38eb2e57496a1af58\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:25.2.0] C:\Users\Archit_pc\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.2.0.aar\1769e4694dcf17b16ab9d81f41bd53fa\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:25.2.0] C:\Users\Archit_pc\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.2.0.aar\1769e4694dcf17b16ab9d81f41bd53fa\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.2.0] C:\Users\Archit_pc\.gradle\caches\transforms-1\files-1.1\support-compat-25.2.0.aar\84d7c5892e53c8fdd3a571093674aa69\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.2.0] C:\Users\Archit_pc\.gradle\caches\transforms-1\files-1.1\support-compat-25.2.0.aar\84d7c5892e53c8fdd3a571093674aa69\AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-vision-license:11.6.2] C:\Users\Archit_pc\.gradle\caches\transforms-1\files-1.1\play-services-vision-license-11.6.2.aar\18d0eb8a36c428cc8bcc4af73f6afdb3\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-vision-license:11.6.2] C:\Users\Archit_pc\.gradle\caches\transforms-1\files-1.1\play-services-vision-license-11.6.2.aar\18d0eb8a36c428cc8bcc4af73f6afdb3\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-base-license:11.6.2] C:\Users\Archit_pc\.gradle\caches\transforms-1\files-1.1\play-services-base-license-11.6.2.aar\ab72e1637134b289d98c01dc212868c3\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-base-license:11.6.2] C:\Users\Archit_pc\.gradle\caches\transforms-1\files-1.1\play-services-base-license-11.6.2.aar\ab72e1637134b289d98c01dc212868c3\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement-license:11.6.2] C:\Users\Archit_pc\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-11.6.2.aar\33f155ad3c342cacad9a257fc0e5d0e8\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement-license:11.6.2] C:\Users\Archit_pc\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-11.6.2.aar\33f155ad3c342cacad9a257fc0e5d0e8\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-vision-common-license:11.6.2] C:\Users\Archit_pc\.gradle\caches\transforms-1\files-1.1\play-services-vision-common-license-11.6.2.aar\b1f6eb1d279b4c5a2baf827393358f98\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-vision-common-license:11.6.2] C:\Users\Archit_pc\.gradle\caches\transforms-1\files-1.1\play-services-vision-common-license-11.6.2.aar\b1f6eb1d279b4c5a2baf827393358f98\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks-license:11.6.2] C:\Users\Archit_pc\.gradle\caches\transforms-1\files-1.1\play-services-tasks-license-11.6.2.aar\0558a4312d04cc62ed7308b1bc2a82f2\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks-license:11.6.2] C:\Users\Archit_pc\.gradle\caches\transforms-1\files-1.1\play-services-tasks-license-11.6.2.aar\0558a4312d04cc62ed7308b1bc2a82f2\AndroidManifest.xml:5:5-20
+	android:supportsRtl
+		ADDED from G:\My Projects\Cordova\Major Project\converter\platforms\android\app\src\main\AndroidManifest.xml:5:114-140
+	android:label
+		ADDED from G:\My Projects\Cordova\Major Project\converter\platforms\android\app\src\main\AndroidManifest.xml:5:81-113
+	android:hardwareAccelerated
+		ADDED from G:\My Projects\Cordova\Major Project\converter\platforms\android\app\src\main\AndroidManifest.xml:5:18-52
+	android:largeHeap
+		ADDED from [com.github.NeutrinosPlatform:scanlibrary:2.2] C:\Users\Archit_pc\.gradle\caches\transforms-1\files-1.1\scanlibrary-2.2.aar\3e65bcae8a09876477c4fe23c349a13a\AndroidManifest.xml:23:9-33
+	android:allowBackup
+		ADDED from [com.github.NeutrinosPlatform:scanlibrary:2.2] C:\Users\Archit_pc\.gradle\caches\transforms-1\files-1.1\scanlibrary-2.2.aar\3e65bcae8a09876477c4fe23c349a13a\AndroidManifest.xml:20:9-35
+	android:icon
+		ADDED from G:\My Projects\Cordova\Major Project\converter\platforms\android\app\src\main\AndroidManifest.xml:5:53-80
+activity#com.example.converter.MainActivity
+ADDED from G:\My Projects\Cordova\Major Project\converter\platforms\android\app\src\main\AndroidManifest.xml:6:9-11:20
+	android:label
+		ADDED from G:\My Projects\Cordova\Major Project\converter\platforms\android\app\src\main\AndroidManifest.xml:6:97-134
+	android:launchMode
+		ADDED from G:\My Projects\Cordova\Major Project\converter\platforms\android\app\src\main\AndroidManifest.xml:6:135-165
+	android:windowSoftInputMode
+		ADDED from G:\My Projects\Cordova\Major Project\converter\platforms\android\app\src\main\AndroidManifest.xml:6:257-299
+	android:configChanges
+		ADDED from G:\My Projects\Cordova\Major Project\converter\platforms\android\app\src\main\AndroidManifest.xml:6:19-96
+	android:theme
+		ADDED from G:\My Projects\Cordova\Major Project\converter\platforms\android\app\src\main\AndroidManifest.xml:6:194-256
+	android:name
+		ADDED from G:\My Projects\Cordova\Major Project\converter\platforms\android\app\src\main\AndroidManifest.xml:6:166-193
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from G:\My Projects\Cordova\Major Project\converter\platforms\android\app\src\main\AndroidManifest.xml:7:13-10:29
+	android:label
+		ADDED from G:\My Projects\Cordova\Major Project\converter\platforms\android\app\src\main\AndroidManifest.xml:7:28-65
+action#android.intent.action.MAIN
+ADDED from G:\My Projects\Cordova\Major Project\converter\platforms\android\app\src\main\AndroidManifest.xml:8:17-69
+	android:name
+		ADDED from G:\My Projects\Cordova\Major Project\converter\platforms\android\app\src\main\AndroidManifest.xml:8:25-66
+category#android.intent.category.LAUNCHER
+ADDED from G:\My Projects\Cordova\Major Project\converter\platforms\android\app\src\main\AndroidManifest.xml:9:17-77
+	android:name
+		ADDED from G:\My Projects\Cordova\Major Project\converter\platforms\android\app\src\main\AndroidManifest.xml:9:27-74
+uses-sdk
+ADDED from G:\My Projects\Cordova\Major Project\converter\platforms\android\app\src\main\AndroidManifest.xml:16:5-74
+INJECTED from G:\My Projects\Cordova\Major Project\converter\platforms\android\app\src\main\AndroidManifest.xml:16:5-74
+MERGED from [com.github.NeutrinosPlatform:scanlibrary:2.2] C:\Users\Archit_pc\.gradle\caches\transforms-1\files-1.1\scanlibrary-2.2.aar\3e65bcae8a09876477c4fe23c349a13a\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.NeutrinosPlatform:scanlibrary:2.2] C:\Users\Archit_pc\.gradle\caches\transforms-1\files-1.1\scanlibrary-2.2.aar\3e65bcae8a09876477c4fe23c349a13a\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.gms:play-services-vision:11.6.2] C:\Users\Archit_pc\.gradle\caches\transforms-1\files-1.1\play-services-vision-11.6.2.aar\fc88e6c792292b2971fdcafe7c3327bc\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-vision:11.6.2] C:\Users\Archit_pc\.gradle\caches\transforms-1\files-1.1\play-services-vision-11.6.2.aar\fc88e6c792292b2971fdcafe7c3327bc\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-vision-common:11.6.2] C:\Users\Archit_pc\.gradle\caches\transforms-1\files-1.1\play-services-vision-common-11.6.2.aar\c38e050bffe2fb6a9fcb29580378717e\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-vision-common:11.6.2] C:\Users\Archit_pc\.gradle\caches\transforms-1\files-1.1\play-services-vision-common-11.6.2.aar\c38e050bffe2fb6a9fcb29580378717e\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-base:11.6.2] C:\Users\Archit_pc\.gradle\caches\transforms-1\files-1.1\play-services-base-11.6.2.aar\12c0123f3ba943217e0c52b624d21956\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-base:11.6.2] C:\Users\Archit_pc\.gradle\caches\transforms-1\files-1.1\play-services-base-11.6.2.aar\12c0123f3ba943217e0c52b624d21956\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-tasks:11.6.2] C:\Users\Archit_pc\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.6.2.aar\cb604757f8bd5fb90b8e74cd0e2765d7\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-tasks:11.6.2] C:\Users\Archit_pc\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.6.2.aar\cb604757f8bd5fb90b8e74cd0e2765d7\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-basement:11.6.2] C:\Users\Archit_pc\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.6.2.aar\2dab50a9186498f545a4150b9f82ea02\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-basement:11.6.2] C:\Users\Archit_pc\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.6.2.aar\2dab50a9186498f545a4150b9f82ea02\AndroidManifest.xml:17:5-43
+MERGED from [com.android.support:support-v4:25.2.0] C:\Users\Archit_pc\.gradle\caches\transforms-1\files-1.1\support-v4-25.2.0.aar\c9ec49235506f7582d18280805adc64a\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:25.2.0] C:\Users\Archit_pc\.gradle\caches\transforms-1\files-1.1\support-v4-25.2.0.aar\c9ec49235506f7582d18280805adc64a\AndroidManifest.xml:21:5-23:54
+MERGED from [:CordovaLib] G:\My Projects\Cordova\Major Project\converter\platforms\android\CordovaLib\build\intermediates\manifests\full\debug\AndroidManifest.xml:25:5-44
+MERGED from [:CordovaLib] G:\My Projects\Cordova\Major Project\converter\platforms\android\CordovaLib\build\intermediates\manifests\full\debug\AndroidManifest.xml:25:5-44
+MERGED from [com.android.support:support-fragment:25.2.0] C:\Users\Archit_pc\.gradle\caches\transforms-1\files-1.1\support-fragment-25.2.0.aar\5309af94737edefc8e902ec652242e6b\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:25.2.0] C:\Users\Archit_pc\.gradle\caches\transforms-1\files-1.1\support-fragment-25.2.0.aar\5309af94737edefc8e902ec652242e6b\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.2.0] C:\Users\Archit_pc\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.2.0.aar\875a97f0df5125b286cd525ba000672b\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:25.2.0] C:\Users\Archit_pc\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.2.0.aar\875a97f0df5125b286cd525ba000672b\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:25.2.0] C:\Users\Archit_pc\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.2.0.aar\94e431f8a723b5c38eb2e57496a1af58\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:25.2.0] C:\Users\Archit_pc\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.2.0.aar\94e431f8a723b5c38eb2e57496a1af58\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-ui:25.2.0] C:\Users\Archit_pc\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.2.0.aar\1769e4694dcf17b16ab9d81f41bd53fa\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:25.2.0] C:\Users\Archit_pc\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.2.0.aar\1769e4694dcf17b16ab9d81f41bd53fa\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.2.0] C:\Users\Archit_pc\.gradle\caches\transforms-1\files-1.1\support-compat-25.2.0.aar\84d7c5892e53c8fdd3a571093674aa69\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.2.0] C:\Users\Archit_pc\.gradle\caches\transforms-1\files-1.1\support-compat-25.2.0.aar\84d7c5892e53c8fdd3a571093674aa69\AndroidManifest.xml:21:5-23:58
+MERGED from [com.google.android.gms:play-services-vision-license:11.6.2] C:\Users\Archit_pc\.gradle\caches\transforms-1\files-1.1\play-services-vision-license-11.6.2.aar\18d0eb8a36c428cc8bcc4af73f6afdb3\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-vision-license:11.6.2] C:\Users\Archit_pc\.gradle\caches\transforms-1\files-1.1\play-services-vision-license-11.6.2.aar\18d0eb8a36c428cc8bcc4af73f6afdb3\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-base-license:11.6.2] C:\Users\Archit_pc\.gradle\caches\transforms-1\files-1.1\play-services-base-license-11.6.2.aar\ab72e1637134b289d98c01dc212868c3\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-base-license:11.6.2] C:\Users\Archit_pc\.gradle\caches\transforms-1\files-1.1\play-services-base-license-11.6.2.aar\ab72e1637134b289d98c01dc212868c3\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement-license:11.6.2] C:\Users\Archit_pc\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-11.6.2.aar\33f155ad3c342cacad9a257fc0e5d0e8\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement-license:11.6.2] C:\Users\Archit_pc\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-11.6.2.aar\33f155ad3c342cacad9a257fc0e5d0e8\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-vision-common-license:11.6.2] C:\Users\Archit_pc\.gradle\caches\transforms-1\files-1.1\play-services-vision-common-license-11.6.2.aar\b1f6eb1d279b4c5a2baf827393358f98\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-vision-common-license:11.6.2] C:\Users\Archit_pc\.gradle\caches\transforms-1\files-1.1\play-services-vision-common-license-11.6.2.aar\b1f6eb1d279b4c5a2baf827393358f98\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks-license:11.6.2] C:\Users\Archit_pc\.gradle\caches\transforms-1\files-1.1\play-services-tasks-license-11.6.2.aar\0558a4312d04cc62ed7308b1bc2a82f2\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks-license:11.6.2] C:\Users\Archit_pc\.gradle\caches\transforms-1\files-1.1\play-services-tasks-license-11.6.2.aar\0558a4312d04cc62ed7308b1bc2a82f2\AndroidManifest.xml:4:5-43
+INJECTED from G:\My Projects\Cordova\Major Project\converter\platforms\android\app\src\main\AndroidManifest.xml:16:5-74
+	tools:overrideLibrary
+		ADDED from [com.android.support:support-v4:25.2.0] C:\Users\Archit_pc\.gradle\caches\transforms-1\files-1.1\support-v4-25.2.0.aar\c9ec49235506f7582d18280805adc64a\AndroidManifest.xml:23:9-51
+	android:targetSdkVersion
+		ADDED from G:\My Projects\Cordova\Major Project\converter\platforms\android\app\src\main\AndroidManifest.xml:16:42-71
+	android:minSdkVersion
+		ADDED from G:\My Projects\Cordova\Major Project\converter\platforms\android\app\src\main\AndroidManifest.xml:16:15-41
+		INJECTED from G:\My Projects\Cordova\Major Project\converter\platforms\android\app\src\main\AndroidManifest.xml
+		INJECTED from G:\My Projects\Cordova\Major Project\converter\platforms\android\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from G:\My Projects\Cordova\Major Project\converter\platforms\android\app\src\main\AndroidManifest.xml:17:5-81
+MERGED from [com.github.NeutrinosPlatform:scanlibrary:2.2] C:\Users\Archit_pc\.gradle\caches\transforms-1\files-1.1\scanlibrary-2.2.aar\3e65bcae8a09876477c4fe23c349a13a\AndroidManifest.xml:17:5-81
+MERGED from [com.github.NeutrinosPlatform:scanlibrary:2.2] C:\Users\Archit_pc\.gradle\caches\transforms-1\files-1.1\scanlibrary-2.2.aar\3e65bcae8a09876477c4fe23c349a13a\AndroidManifest.xml:17:5-81
+	android:name
+		ADDED from G:\My Projects\Cordova\Major Project\converter\platforms\android\app\src\main\AndroidManifest.xml:17:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from G:\My Projects\Cordova\Major Project\converter\platforms\android\app\src\main\AndroidManifest.xml:18:5-80
+MERGED from [com.github.NeutrinosPlatform:scanlibrary:2.2] C:\Users\Archit_pc\.gradle\caches\transforms-1\files-1.1\scanlibrary-2.2.aar\3e65bcae8a09876477c4fe23c349a13a\AndroidManifest.xml:16:5-80
+MERGED from [com.github.NeutrinosPlatform:scanlibrary:2.2] C:\Users\Archit_pc\.gradle\caches\transforms-1\files-1.1\scanlibrary-2.2.aar\3e65bcae8a09876477c4fe23c349a13a\AndroidManifest.xml:16:5-80
+	android:name
+		ADDED from G:\My Projects\Cordova\Major Project\converter\platforms\android\app\src\main\AndroidManifest.xml:18:22-77
+meta-data#com.google.android.gms.vision.DEPENDENCIES
+ADDED from G:\My Projects\Cordova\Major Project\converter\platforms\android\app\src\main\AndroidManifest.xml:19:5-96
+	android:value
+		ADDED from G:\My Projects\Cordova\Major Project\converter\platforms\android\app\src\main\AndroidManifest.xml:19:74-93
+	android:name
+		ADDED from G:\My Projects\Cordova\Major Project\converter\platforms\android\app\src\main\AndroidManifest.xml:19:16-73
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from G:\My Projects\Cordova\Major Project\converter\platforms\android\app\src\main\AndroidManifest.xml:20:5-71
+	android:name
+		ADDED from G:\My Projects\Cordova\Major Project\converter\platforms\android\app\src\main\AndroidManifest.xml:20:22-68
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from G:\My Projects\Cordova\Major Project\converter\platforms\android\app\src\main\AndroidManifest.xml:13:13-123
+	android:resource
+		ADDED from G:\My Projects\Cordova\Major Project\converter\platforms\android\app\src\main\AndroidManifest.xml:13:75-120
+	android:name
+		ADDED from G:\My Projects\Cordova\Major Project\converter\platforms\android\app\src\main\AndroidManifest.xml:13:24-74
+uses-feature#android.hardware.camera
+ADDED from [com.github.NeutrinosPlatform:scanlibrary:2.2] C:\Users\Archit_pc\.gradle\caches\transforms-1\files-1.1\scanlibrary-2.2.aar\3e65bcae8a09876477c4fe23c349a13a\AndroidManifest.xml:11:5-13:35
+	android:required
+		ADDED from [com.github.NeutrinosPlatform:scanlibrary:2.2] C:\Users\Archit_pc\.gradle\caches\transforms-1\files-1.1\scanlibrary-2.2.aar\3e65bcae8a09876477c4fe23c349a13a\AndroidManifest.xml:13:9-32
+	android:name
+		ADDED from [com.github.NeutrinosPlatform:scanlibrary:2.2] C:\Users\Archit_pc\.gradle\caches\transforms-1\files-1.1\scanlibrary-2.2.aar\3e65bcae8a09876477c4fe23c349a13a\AndroidManifest.xml:12:9-47
+uses-permission#android.permission.CAMERA
+ADDED from [com.github.NeutrinosPlatform:scanlibrary:2.2] C:\Users\Archit_pc\.gradle\caches\transforms-1\files-1.1\scanlibrary-2.2.aar\3e65bcae8a09876477c4fe23c349a13a\AndroidManifest.xml:15:5-65
+	android:name
+		ADDED from [com.github.NeutrinosPlatform:scanlibrary:2.2] C:\Users\Archit_pc\.gradle\caches\transforms-1\files-1.1\scanlibrary-2.2.aar\3e65bcae8a09876477c4fe23c349a13a\AndroidManifest.xml:15:22-62
+activity#com.scanlibrary.ScanActivity
+ADDED from [com.github.NeutrinosPlatform:scanlibrary:2.2] C:\Users\Archit_pc\.gradle\caches\transforms-1\files-1.1\scanlibrary-2.2.aar\3e65bcae8a09876477c4fe23c349a13a\AndroidManifest.xml:24:9-28:20
+	android:label
+		ADDED from [com.github.NeutrinosPlatform:scanlibrary:2.2] C:\Users\Archit_pc\.gradle\caches\transforms-1\files-1.1\scanlibrary-2.2.aar\3e65bcae8a09876477c4fe23c349a13a\AndroidManifest.xml:27:13-45
+	android:configChanges
+		ADDED from [com.github.NeutrinosPlatform:scanlibrary:2.2] C:\Users\Archit_pc\.gradle\caches\transforms-1\files-1.1\scanlibrary-2.2.aar\3e65bcae8a09876477c4fe23c349a13a\AndroidManifest.xml:26:13-59
+	android:name
+		ADDED from [com.github.NeutrinosPlatform:scanlibrary:2.2] C:\Users\Archit_pc\.gradle\caches\transforms-1\files-1.1\scanlibrary-2.2.aar\3e65bcae8a09876477c4fe23c349a13a\AndroidManifest.xml:25:13-56
+provider#com.scanlibrary.CustomFileProvider
+ADDED from [com.github.NeutrinosPlatform:scanlibrary:2.2] C:\Users\Archit_pc\.gradle\caches\transforms-1\files-1.1\scanlibrary-2.2.aar\3e65bcae8a09876477c4fe23c349a13a\AndroidManifest.xml:30:9-38:20
+	android:grantUriPermissions
+		ADDED from [com.github.NeutrinosPlatform:scanlibrary:2.2] C:\Users\Archit_pc\.gradle\caches\transforms-1\files-1.1\scanlibrary-2.2.aar\3e65bcae8a09876477c4fe23c349a13a\AndroidManifest.xml:34:13-47
+	android:authorities
+		ADDED from [com.github.NeutrinosPlatform:scanlibrary:2.2] C:\Users\Archit_pc\.gradle\caches\transforms-1\files-1.1\scanlibrary-2.2.aar\3e65bcae8a09876477c4fe23c349a13a\AndroidManifest.xml:32:13-76
+	android:exported
+		ADDED from [com.github.NeutrinosPlatform:scanlibrary:2.2] C:\Users\Archit_pc\.gradle\caches\transforms-1\files-1.1\scanlibrary-2.2.aar\3e65bcae8a09876477c4fe23c349a13a\AndroidManifest.xml:33:13-37
+	android:name
+		ADDED from [com.github.NeutrinosPlatform:scanlibrary:2.2] C:\Users\Archit_pc\.gradle\caches\transforms-1\files-1.1\scanlibrary-2.2.aar\3e65bcae8a09876477c4fe23c349a13a\AndroidManifest.xml:31:13-62
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:11.6.2] C:\Users\Archit_pc\.gradle\caches\transforms-1\files-1.1\play-services-base-11.6.2.aar\12c0123f3ba943217e0c52b624d21956\AndroidManifest.xml:19:9-172
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:11.6.2] C:\Users\Archit_pc\.gradle\caches\transforms-1\files-1.1\play-services-base-11.6.2.aar\12c0123f3ba943217e0c52b624d21956\AndroidManifest.xml:19:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:11.6.2] C:\Users\Archit_pc\.gradle\caches\transforms-1\files-1.1\play-services-base-11.6.2.aar\12c0123f3ba943217e0c52b624d21956\AndroidManifest.xml:19:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:11.6.2] C:\Users\Archit_pc\.gradle\caches\transforms-1\files-1.1\play-services-base-11.6.2.aar\12c0123f3ba943217e0c52b624d21956\AndroidManifest.xml:19:19-85
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:11.6.2] C:\Users\Archit_pc\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.6.2.aar\2dab50a9186498f545a4150b9f82ea02\AndroidManifest.xml:20:9-121
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:11.6.2] C:\Users\Archit_pc\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.6.2.aar\2dab50a9186498f545a4150b9f82ea02\AndroidManifest.xml:20:66-119
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:11.6.2] C:\Users\Archit_pc\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.6.2.aar\2dab50a9186498f545a4150b9f82ea02\AndroidManifest.xml:20:20-65
